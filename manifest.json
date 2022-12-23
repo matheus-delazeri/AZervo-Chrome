@@ -1,0 +1,15 @@
+{
+  "name": "AZervo",
+  "description": "Search articles everywhere!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "scripts/search.js"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "/images/logo.png"
+  }
+}
